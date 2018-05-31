@@ -1,3 +1,4 @@
+/* Implementation of fish model in addition to the parrot class*/
 
 class Fish
 {
@@ -19,19 +20,25 @@ class Fish
 		System.out.println("Clownfish are small and colorful");
 		System.out.println("Clownfish make jokes");
 	}
+	void sound()
+	{
+		
+	}
 }
 
 class Dolphin
 {
-	
+	String a="dddd";
 	Dolphin()
 	{
 	}	
-	 void sound(String a)
+	 void sound()
 	{
 		System.out.println("Sound:"+a);
 	}
 }
+/* Implementation of Fish model without inheritance*/
+
 public class Solution3 {
 	/**
 	 * @param args
@@ -44,7 +51,7 @@ public class Solution3 {
   fish.walk();
   shark.swalk();
   clownship.cwalk();
-  Fish Dolphin=new Fish("dfdds");
+  Fish Dolphin=new Fish();
   Dolphin.sound();
 	}
 

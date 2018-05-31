@@ -1,5 +1,5 @@
 
-/*Code By Balaji Chandran for Singtel*/
+/*Code By Balaji Chandran for Singtel Assessment*/
 class Animal
 {
 	void walk()

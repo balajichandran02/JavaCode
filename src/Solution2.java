@@ -6,6 +6,8 @@ interface Sound{
 	public void method2();
 	public void method3();
 }
+/* Implementing Parrot class with sound() method*/
+
 class Parrot implements Sound
 {
 	
@@ -25,6 +27,8 @@ class Parrot implements Sound
 		System.out.println("Cock-a-doodle-doo");
 	}
 }
+/* Implementing three different behaviour for single class*/
+
 public class Solution2 {
 
 	/**
